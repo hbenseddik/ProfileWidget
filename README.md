@@ -1,5 +1,6 @@
 # ProfileWidget
 Simple online profile widget
+(http://hadjbenseddik.com/blogpost/blogpost.html)
 
 Widget will soon be equipped with full functionality: <br>
 -Images: Upload & change cover/profile photos. <br>
