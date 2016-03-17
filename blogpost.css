@@ -1,0 +1,208 @@
+
+/*-------------------------------------------CONTAINER DIV---------------------------------------------------*/
+
+.container {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 12px 0px rgba(171, 139, 110, 0.38);
+  width: 370px;
+  height: 392px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+/*-------------------------------------------COVER-PHOTO DIV---------------------------------------------------*/
+
+.coverphoto {
+  background-image: url("images/coverphoto.png");
+  width: 370px;
+  height: 204px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px; 
+  clear: none;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -kthtml-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.coverphoto:hover{
+  box-shadow: 0px 0px 30px 3px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0px 0px 30px 3px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 0px 30px 3px rgba(0,0,0,0.3);
+  -webkit-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -ms-transition: all 0.5s linear;
+  -kthtml-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+
+/*-------------------------------------------PHOTO DIV---------------------------------------------------*/
+
+.prof {
+  height: 88px;
+  width: 88px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d8d4cf;
+  border-radius: 50%;
+  background-image: url(images/profilepic.png);
+  background-position: 5.9px 4px;
+  background-repeat: no-repeat;
+  margin: 23px 17px 23px 21px;
+  float: left;
+  -webkit-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -ms-transition: all 0.5s linear;
+  -kthtml-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+
+.prof:hover{
+ -webkit-box-shadow: 10px 5px 15px 10px rgba(0,0,0,0.3);
+ -moz-box-shadow: 10px 5px 15px 10px rgba(0,0,0,0.3);
+ box-shadow: -3px -5px 30px 3px rgba(0,0,0,0.3);
+ -webkit-transition: all 0.5s linear;
+ -o-transition: all 0.5s linear;
+ -moz-transition: all 0.5s linear;
+ -ms-transition: all 0.5s linear;
+ -kthtml-transition: all 0.5s linear;
+ transition: all 0.5s linear;
+ opacity: .8;
+}
+
+.info{
+  float: left;
+  width: 230px;
+  height: 130px;
+  white-space: ;
+}
+
+/*-------------------------------------------SPAN NAME---------------------------------------------------*/
+
+h1 {
+  font-size: 26px;
+  height: 28px;   
+  font-family: "Open Sans";
+  color: rgb(92, 81, 70);
+  margin-bottom: 14px;
+  margin-top: 26px;
+  letter-spacing: -0.5px;
+}
+
+/*-------------------------------------------SPAN TEXT---------------------------------------------------*/
+
+.info span {
+  font-size: 12.5px;
+  font-family: "Open Sans";
+  color: rgb(142, 128, 113);
+  font-weight:500;
+  line-height: 1.5;
+}
+
+/*-------------------------------------------UL STATS---------------------------------------------------*/
+
+ul.Profile {
+  background-image: url(images/stats.png);
+  padding: 0;
+  margin: 0;
+  left: 0px;
+  bottom: 0px;
+  width: 370px;
+  height: 50px;
+  position: absolute;
+  list-style: none;
+}
+
+/*------------------Li Views------------------*/
+
+li {
+  height: 17.63px;
+  width: 75.03px;
+  margin-top: -22px;
+  margin-right: 26px;
+  padding-left: 19px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+a.preview {
+  background-image: url("images/nopreview.png");
+  background-repeat: no-repeat;
+  height: 17.63px;
+  width: 25.03px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle; 
+}
+
+li.selected a.preview {
+  background-image: url("images/yespreview.png");
+  background-repeat: no-repeat;
+}
+
+/*------------------Li Comments------------------*/
+
+a.comment {
+  background-image: url("images/nocomment.png");
+  background-repeat: no-repeat;
+  width: 25.44px;
+  height: 18px;
+  margin-left:8px ;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+li.selected a.comment {
+  background-image: url("images/yescomment.png");
+  background-repeat: no-repeat;
+}
+
+/*------------------Li Likes------------------*/
+
+a.like {
+  background-image: url("images/nolike.png");
+  background-repeat: no-repeat;
+  width: 20.78px;
+  height: 17.66px;
+  margin-left: ;
+  text-align: center;
+  display: inline-block;    
+  vertical-align: middle;  
+}
+
+li.selected a.like {
+  background-image: url("images/yeslike.png");
+  background-repeat: no-repeat;
+}
+
+/*------------------Li Spans------------------*/
+
+h4{
+
+  font-family: "Open Sans";
+  font-size: 15.5px;
+  font-weight: bolder;
+  color: rgba(142, 128, 113, 0.702);
+  display: inline-block;
+  position: relative;
+  top: 1px;
+  padding-left: 8px;
+  letter-spacing: -1px;
+}
+
+li.selected h4{
+  color: red;
+}
+
+a.preview:hover, a.comment:hover, a.like:hover{ 
+  opacity: 0.8;
+}
